@@ -1,0 +1,5 @@
+development:
+  api_key: "<juhe api key>"
+
+production:
+  api_key: "部署上productiond, key放这里"

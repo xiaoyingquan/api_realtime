@@ -1,0 +1,20 @@
+<table class="table">
+  <tr>
+    <th>_id</th>
+    <th>ShortName</th>
+    <th>ZRSP</th>
+    <th>Company</th>
+    <th>OperName</th>
+    <th>UpDate</th>
+  </tr>
+  <% @realtimes.each do |realtime| %>
+    <tr>
+      <td><%= realtime._id %></td>
+      <td><%= realtime.shortName %></td>
+      <td><%= realtime.ZRSP %></td>
+      <td><%= realtime.company %></td>
+      <td><%= realtime.operName %></td>
+      <td><%= realtime.upDate %></td>
+    </tr>
+  <% end %>
+</table>
